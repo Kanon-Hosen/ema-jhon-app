@@ -11,12 +11,13 @@
     position: relative;
     gap: 30px;
 }
-.shop .cart{
+.shop .cartItem{
     width: 23%;
-    height: 100vh;
+    height: 100%;
     padding: 10px;
+    background-color: #FFE0B3;
 }
-.shop .cart p{
+.shop .cartItem p{
     text-align: center;
     font-size: 17px;
     font-weight: 600;

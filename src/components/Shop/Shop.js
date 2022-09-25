@@ -21,7 +21,7 @@ const Shop = () => {
                 products.map(product =><Products key={product.id} product={product} cartHandle={()=>cartHandle(product)}></Products>)
             }
             </div>
-            <div className="cart">
+            <div className="cartItem">
                 <p>Order item: {cart.length}</p>
                <Cart cart={cart}></Cart> 
             </div>
