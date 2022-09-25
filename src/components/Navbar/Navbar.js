@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className='nav'>
             <img src={Image} alt="" />
             <div>
-                <a href="/shop">Shop</a>
+                <a href="../Shop/">Shop</a>
                 <a href="/about">About</a>
                 <a href="/Blog">Blog</a>
                 <a href="/login">Login</a>
